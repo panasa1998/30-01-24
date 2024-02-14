@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            background-color: rgb(165, 220, 220);
+        }
+    </style>
+</head>
+<body>
+    <h2>Application form for enrolling internship</h2>
+    <form>
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname" name="f_name" required><br><br>
+        <label for="lastname">Last name</label>
+        <input type="text" id="lastname" name="last_name"required><br><br>
+        <label for="num">Mobile</label>
+        <input type="tel" id="num" name="ph" pattern="[0-9]{12}"><br><br>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="gmail"required><br><br>
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob"></input><br><br>
+        <label for="name">Father's name</label>
+        <input type="text" id="name" name="father's name" required>
+        <label for="num">Mobile</label>
+        <input type="tel" id="num" name=" father's ph"><br><br>
+        <label for="name">College name</label>
+        <input type="text" id="name" name="clg" required>
+        <label for="name">University</label>
+        <input type="text" id="name" name="university" required><br><br>
+        <label for="roll no">Roll no/id no</label>
+        <input type="text" id="roll no" name="id num" reqired><br><br>
+        <p><b>Address:</b></p>
+        <label for="addr">House no/flat no</label>
+        <input type="text" id="addr" name="address"><br><br>
+        <label for="addr">Street</label>
+        <input type="text" id="addr" name="address"><br><br>
+        <label for="addr">Mandal</label>
+        <input type="text" id="addr" name="address"><br><br>
+        <label for="addr">District</label>
+        <input type="text" id="addr" name="address"><br><br>
+        <label for="addr">State</label>
+        <input type="text" id="addr" name="address"><br><br>
+        <label for="addr">pincode</label>
+        <input type="number" id="addr" name="address"><br><br>
+        <label for="gender"><b>Gender:</b> </label><br><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others<br><br>
+        <label for="languages"><b>Languages known</b></label><br><br>
+        <input type="checkbox" name="languages">Telugu
+        <input type="checkbox" name="languages">Hindi
+        <input type="checkbox" name="languages">English<br><br>
+        <label for="qualification"><b>Select your qualification</b></label><br><br>
+        <input type="radio" name="qualification">MBA
+        <input type="radio" name="qualification">MCA
+        <input type="radio" name="qualification">MSC
+        <input type="radio" name="qualification">M COM
+        <input type="radio" name="qualification">BSC
+        <input type="radio" name="qualification">B COM<br><br>
+        <label for="select"><b>Any other internship experience</b></label><br><br>
+        <input type="radio" name="select">yes
+        <input type="radio" name="select">no<br><br>
+        <label for="tick"></label>
+        <input type="checkbox" name="tick" required>I/We hereby certify that I/We have read entire terms and conditions of the tender documents(including all documents like annexure), schedule(s), etc.,), which form part of the Contract Agreement and I/We shall abide hereby the terms / conditions / clauses contained therein.<br><br>
+        <input type="submit" value="enroll">
+
+
+    </form>
+    
+</body>
+</html>
